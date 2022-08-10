@@ -1,0 +1,22 @@
+{
+  "name": "khanakia/shopify",
+  "description": "Shopify Helpers",
+  "keywords": ["shopify", "scrapping"],
+  "license": "MIT",
+  "autoload": {
+      "psr-4": {
+          "Khanakia\\Shopify\\": "src/"
+      }
+  },
+  "authors": [
+      {
+          "name": "Aman Khanakia",
+          "email": "aman@khanakia.com"
+      }
+  ],
+  "require": {
+    "fabpot/goutte": "^4.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
